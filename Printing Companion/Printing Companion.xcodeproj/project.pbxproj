@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2ED684D1CA0BE2500A409A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED684C1CA0BE2500A409A8 /* AppDelegate.swift */; };
+		A2ED68501CA0BE2500A409A8 /* Printing_Companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2ED684E1CA0BE2500A409A8 /* Printing_Companion.xcdatamodeld */; };
+		A2ED68521CA0BE2500A409A8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED68511CA0BE2500A409A8 /* MasterViewController.swift */; };
+		A2ED68541CA0BE2500A409A8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED68531CA0BE2500A409A8 /* DetailViewController.swift */; };
+		A2ED68571CA0BE2500A409A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2ED68551CA0BE2500A409A8 /* Main.storyboard */; };
+		A2ED68591CA0BE2500A409A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2ED68581CA0BE2500A409A8 /* Assets.xcassets */; };
+		A2ED685C1CA0BE2500A409A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2ED685A1CA0BE2500A409A8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2ED68491CA0BE2500A409A8 /* Printing Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Printing Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ED684C1CA0BE2500A409A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2ED684F1CA0BE2500A409A8 /* Printing_Companion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Printing_Companion.xcdatamodel; sourceTree = "<group>"; };
+		A2ED68511CA0BE2500A409A8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A2ED68531CA0BE2500A409A8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A2ED68561CA0BE2500A409A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2ED68581CA0BE2500A409A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2ED685B1CA0BE2500A409A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2ED685D1CA0BE2500A409A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2ED68461CA0BE2500A409A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2ED68401CA0BE2500A409A8 = {
+			isa = PBXGroup;
+			children = (
+				A2ED684B1CA0BE2500A409A8 /* Printing Companion */,
+				A2ED684A1CA0BE2500A409A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2ED684A1CA0BE2500A409A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2ED68491CA0BE2500A409A8 /* Printing Companion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2ED684B1CA0BE2500A409A8 /* Printing Companion */ = {
+			isa = PBXGroup;
+			children = (
+				A2ED684C1CA0BE2500A409A8 /* AppDelegate.swift */,
+				A2ED68511CA0BE2500A409A8 /* MasterViewController.swift */,
+				A2ED68531CA0BE2500A409A8 /* DetailViewController.swift */,
+				A2ED68551CA0BE2500A409A8 /* Main.storyboard */,
+				A2ED68581CA0BE2500A409A8 /* Assets.xcassets */,
+				A2ED685A1CA0BE2500A409A8 /* LaunchScreen.storyboard */,
+				A2ED685D1CA0BE2500A409A8 /* Info.plist */,
+				A2ED684E1CA0BE2500A409A8 /* Printing_Companion.xcdatamodeld */,
+			);
+			path = "Printing Companion";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2ED68481CA0BE2500A409A8 /* Printing Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ED68601CA0BE2500A409A8 /* Build configuration list for PBXNativeTarget "Printing Companion" */;
+			buildPhases = (
+				A2ED68451CA0BE2500A409A8 /* Sources */,
+				A2ED68461CA0BE2500A409A8 /* Frameworks */,
+				A2ED68471CA0BE2500A409A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Printing Companion";
+			productName = "Printing Companion";
+			productReference = A2ED68491CA0BE2500A409A8 /* Printing Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2ED68411CA0BE2500A409A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeremiah Bonham";
+				TargetAttributes = {
+					A2ED68481CA0BE2500A409A8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A2ED68441CA0BE2500A409A8 /* Build configuration list for PBXProject "Printing Companion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2ED68401CA0BE2500A409A8;
+			productRefGroup = A2ED684A1CA0BE2500A409A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2ED68481CA0BE2500A409A8 /* Printing Companion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2ED68471CA0BE2500A409A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ED685C1CA0BE2500A409A8 /* LaunchScreen.storyboard in Resources */,
+				A2ED68591CA0BE2500A409A8 /* Assets.xcassets in Resources */,
+				A2ED68571CA0BE2500A409A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2ED68451CA0BE2500A409A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ED684D1CA0BE2500A409A8 /* AppDelegate.swift in Sources */,
+				A2ED68501CA0BE2500A409A8 /* Printing_Companion.xcdatamodeld in Sources */,
+				A2ED68521CA0BE2500A409A8 /* MasterViewController.swift in Sources */,
+				A2ED68541CA0BE2500A409A8 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2ED68551CA0BE2500A409A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2ED68561CA0BE2500A409A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2ED685A1CA0BE2500A409A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2ED685B1CA0BE2500A409A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2ED685E1CA0BE2500A409A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2ED685F1CA0BE2500A409A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2ED68611CA0BE2500A409A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Printing Companion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JB.Printing-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2ED68621CA0BE2500A409A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Printing Companion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JB.Printing-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2ED68441CA0BE2500A409A8 /* Build configuration list for PBXProject "Printing Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ED685E1CA0BE2500A409A8 /* Debug */,
+				A2ED685F1CA0BE2500A409A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ED68601CA0BE2500A409A8 /* Build configuration list for PBXNativeTarget "Printing Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ED68611CA0BE2500A409A8 /* Debug */,
+				A2ED68621CA0BE2500A409A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2ED684E1CA0BE2500A409A8 /* Printing_Companion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2ED684F1CA0BE2500A409A8 /* Printing_Companion.xcdatamodel */,
+			);
+			currentVersion = A2ED684F1CA0BE2500A409A8 /* Printing_Companion.xcdatamodel */;
+			path = Printing_Companion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2ED68411CA0BE2500A409A8 /* Project object */;
+}
